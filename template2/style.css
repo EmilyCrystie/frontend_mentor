@@ -1,0 +1,134 @@
+/* RESET */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* VARIABLES */
+:root{
+    --background: hsla(0, 0%, 100%, 0.979);
+
+    --background-card1: hsl(31, 77%, 52%);
+    --background-card2: hsl(184, 100%, 22%);
+    --background-card3: hsl(179, 100%, 13%);
+
+    --background-buttom: hsla(0, 0%, 100%, 0.979);
+
+    /* fonts */
+    --title-card: hsla(0, 0%, 100%, 0.979);
+    --content-card: hsla(0, 0%, 100%, 0.979);
+}
+
+/* cards */
+.cards{
+    margin: 5rem 1rem;
+}
+
+h1{
+    color: var(--title-card);
+
+    font-size: 2.3rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    color: var(--content-card);
+    opacity: 60%;
+
+    font-size: 1.3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    line-height: 2rem;
+}
+
+button{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+/* card-1 */
+.card-1{
+    background: var(--background-card1);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.card-content-1{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.button-1{
+   color: var(--background-card1);
+}
+
+/* card-2 */
+.card-2{
+    background: var(--background-card2);
+}
+
+.card-content-2{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.button-2{
+    color: var(--background-card2);
+}
+
+/* card-3 */
+.card-3{
+    background: var(--background-card3);
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.card-content-3{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.button-3{
+   color: var(--background-card3);
+}
+
+
+
+/* RESPONSIVIDADE */
+/* large 800 > x */
+@media (min-width: 800px){
+
+html{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.cards{
+    margin: 5rem 10rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+}
+
+.card-1{
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.card-3{
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+}

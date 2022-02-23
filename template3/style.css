@@ -1,0 +1,136 @@
+/* GERAL */
+body{
+    font-family: 'Karla', sans-serif;;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0%;
+}
+
+.padding{
+    margin: 5rem 2rem;
+}
+
+.content{
+    padding: 1.5rem;
+}
+
+h2{
+    margin-top: 0.5rem;
+}
+
+h1{
+    font-size: 700;
+}
+
+p, li{
+    font-size: 16px;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+/* PRINCIPAL */
+.principal{
+    background-color: white;
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+}
+
+.principal h2{
+    color: hsl(179, 62%, 43%);
+    font-size: 400;
+}
+
+.principal h3{
+    color: hsl(71, 73%, 54%);
+    font-size: 400;
+}
+
+.principal p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+
+/* SECOND */
+.second{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.second .flex{
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+}
+
+.second h2, h1, p{
+    color: white
+}
+
+.margin{
+    margin-top: 0%;
+    margin-bottom: 2rem;
+    opacity: 0.75;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.button{
+    text-align: center;
+}
+
+/* THIRD */
+.third{
+    background-color: hsl(179, 73%, 43%);
+    color: white;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+}
+
+ul{
+    padding: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 700px){
+
+    html{
+        display: flex;
+        column-count: 1;
+    }
+
+    .padding{
+        margin: 3.7rem 15rem;
+    }
+
+    .flex-content{
+        column-count: 2;
+        gap: 0%;
+    }
+
+    .second{
+        border-radius: 0rem 0rem 0rem 0.3rem;
+    }
+
+    .third{
+        border-radius: 0rem 0rem 0.3rem 0rem;
+    }
+
+    li{
+        line-height: 1.8rem;    
+    } 
+
+}
+
+
+
+
+
