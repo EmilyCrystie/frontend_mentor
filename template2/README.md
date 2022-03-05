@@ -8,7 +8,7 @@
 </div>
 <br>
  
-<h2> 💻 Tecnologias usadas e Coisas que aprendi... </h2>
+<h2> 💻 Tecnologias usadas </h2>
  <h3> HTML 
   <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
  </h3>
