@@ -1,35 +1,41 @@
-# frontendmentor_template4
- 
-Como ficou:
-https://emilycrystie.github.io/frontendmentor_template4/
+<h1 align="center"> Template4 </h1>
+<p> Template transformado em HTML e CSS </p>
+<br>
+<div align="center">  
+ <p> ➡️ Acesse o projeto por <a href="https://crystie-fm4.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
-Figma: https://www.figma.com/file/oaspKMtxGNQqBfOT148Gy3/Template-4?node-id=0%3A1
-
- ### 🤓 _**Aprendizado**_ 
- HTML
-  1. Estrutura Html com mais "compartimentos": `header`, `body` e `footer`
+ ![image](https://user-images.githubusercontent.com/81563039/156889806-49ec2eae-37f0-4914-8d9f-a38b18c8d50a.png)
+</div>
+<br>
  
- CSS
-  1. Aplicação e manuseio de imagem de fundo
-  2. Prática de box model
-  3. `display: block` e `display flex` para estabelecer melhor posição dos elementos na tela
-  4. Posicionamento de texto
-  5. Retirada de estilização padrão do botão, aplicando novoestilo e acréscimo de borda
-  6. Pseudo class (`:hover`) para alteração do estado do botão ao passar o mouse por cima
-  7. uso de 3 breakpoints para melhor responsividade
+<h2> 💻 Tecnologias usadas e Coisas que aprendi... </h2>
+ <h3> HTML 
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li> Estrutura Html com mais "compartimentos": <code>header, body, footer</code> </li>
+  </ol>
   
-  FIGMA
-  1. Importância de style-guide antes de começar a escrever o código
-  2. Importância do protótipo para melhor dimensionamento e precisão dos elementos no código
-
-  ### 📚 _**A melhorar**_ 
-  1. Responsividade: breakpoints e alterações necessárias sem "sujar" o código
-  2. Box model x alinhamento dos elementos: situação de uso de cada um
+ <h3> CSS 
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li> Aplicação e manuseio de imagem de fundo </li>
+   <li> Prática de box model </li>
+   <li> <code>display: block</code> e <code>display: flex</code> para estabelecer melhor posição dos elementos na tela </li>
+   <li> Posicionamento de texto </li>
+   <li> Retirada de estilização padrão do botão, aplicando novoestilo e acréscimo de borda </li>
+   <li> Pseudo class <code>:hover</code> para alteração do estado do botão ao passar o mouse por cima </li>
+   <li> uso de 3 breakpoints para melhor responsividade </li>
+  </ol>
+<br>
  
- 
-_💡 Modelo 💡_ 
+<h2> 💡 Design </h2>
+<a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank"> Origem da Ideia </a>
+<br>
+<a href="https://www.figma.com/file/oaspKMtxGNQqBfOT148Gy3/Template-4" target="_blank"> Layout no Figma </a>
+<br>
+<br>
 
-![desktop-design 1](https://user-images.githubusercontent.com/81563039/153283773-9bc93608-c60e-4dd2-900f-c22d21c61287.png)
-
-![mobile-design 1](https://user-images.githubusercontent.com/81563039/153283816-e648b16a-7f8c-4836-8f26-7ff876bc8dcf.png)
-
+<h2> 👩‍💻 Autora </h2>
+<h4 align="center"> Desenvolvido por <a href="https://www.linkedin.com/in/emilycrystie/" target="_blank"> Emily Crystie <a>  😎. <h4>
