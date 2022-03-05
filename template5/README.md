@@ -1,28 +1,40 @@
-# frontendmentor_template5
+<h1 align="center"> Template5 </h1> 
+<p align="center"> :construction: Em desenvolvimento :construction: </p>
+<p> Template transformado em HTML e CSS </p>
+<br>
+<div align="center">  
+ <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
+
+ <img src="#" alt="Layout do meu projeto finalizado"> 
+</div>
+<br>
  
-Como ficou:
-
-
-Figma: https://www.figma.com/file/cUl9HwYEBWyFzm3f8D3boR/Template-5?node-id=0%3A1
-
- ### 🤓 _**Aprendizado**_ 
- HTML
-  1. 
- 
- CSS
-  1. 
+<h2> 💻 Tecnologias usadas e Coisas que aprendi... </h2>
+ <h3> HTML 
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+  </ol>
   
-  FIGMA
-  1. Importância de style-guide antes de começar a escrever o código
-  2. Importância do protótipo para melhor dimensionamento e precisão dos elementos no código
-
-  ### 📚 _**A melhorar**_ 
-  1. Responsividade: breakpoints e alterações necessárias sem "sujar" o código
-  2. Box model x alinhamento dos elementos: situação de uso de cada um
+ <h3> CSS 
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+  </ol>
+<br>
  
- 
-_💡 Modelo 💡_ 
+<h2> 💡 Design </h2>
+<a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank"> Origem da Ideia </a>
+<br>
+<a href="https://www.figma.com/file/cUl9HwYEBWyFzm3f8D3boR/Template-5" target="_blank"> Layout no Figma </a>
+<br>
+<br>
 
-![desktop-design](https://user-images.githubusercontent.com/81563039/156017217-df4704cd-c569-41c5-a196-ea1b54e27118.png)
-![mobile-design](https://user-images.githubusercontent.com/81563039/156017231-61daaac6-a00b-44b3-a3a8-6d55c25ec875.png)
-
+<h2> 👩‍💻 Autora </h2>
+<h4 align="center"> Desenvolvido por <a href="https://www.linkedin.com/in/emilycrystie/" target="_blank"> Emily Crystie <a>  😎. <h4>
