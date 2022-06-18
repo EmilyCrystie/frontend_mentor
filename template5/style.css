@@ -2,56 +2,113 @@
 
 *{
     margin:0;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    --gap: 0.5rem;
 }
 
 body{
     width: 100vw;
     height: 100vh;
     background: #0D192B;
-    font-family: 'Outfit', sans-serif;
-}
-
-main{
-    width: 85vw;
-    height: 80vh;
     display: flex;
     justify-content: center;   
     align-items: center;
-    flex-direction: column;
-    background: #14253D;
-    border-radius: 10px;
-}    
+}
 
 .nft-card{
-    width: 75vw;
-    height: 70vh;
+    width: 20vw;
+    height: 75vh;
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
-
-}
+    background: #15273F;
+    border-radius: 10px;
+    box-shadow: -1px 12px 31px 5px rgba(0,0,0,0.41);
+    -webkit-box-shadow: -1px 12px 31px 5px rgba(0,0,0,0.41);
+    -moz-box-shadow: -1px 12px 31px 5px rgba(0,0,0,0.41);
+}    
 
 .nft-content{
-
-
-
-}
-
-.nft-content img{
-    width: 15rem;
-    height: 15rem;
-    border-radius: 5px;
-}
-
-h1{
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18pt;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
 }
 
 .nft-content p{
     color: #8BACDA;
-    font-weight: 400;
 }
 
+.nft img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nft h1{
+    margin-top: var(--gap);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14pt;
+}
+
+.nft p{
+    margin-top: var(--gap);
+    font-weight: 400;
+    font-size: 11pt;
+    text-align: justify;
+}
+
+.negociation-nft{
+    margin-top: var(--gap);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.negociation-nft p{
+    margin-top: var(--gap);
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+
+.negociation-nft .span p{
+    color: #00FFF6;
+    font-weight: 600;
+}
+
+hr{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    opacity: 15%;
+    border-color: #8BACDA;
+}
+
+.user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.user img{
+    width: 2rem;
+    height: 2rem;
+    border: 0.10rem solid #fff;
+    border-radius: 50%;
+}
+
+.user p{
+    font-size: 10pt;
+}
+
+.user span{
+    color: #FFFFFF;
+}
