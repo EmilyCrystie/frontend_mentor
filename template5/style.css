@@ -20,7 +20,7 @@ body{
 
 .nft-card{
     width: 20vw;
-    height: 75vh;
+    min-height: 28rem;
     display: flex;
     justify-content: center; 
     align-items: center;
