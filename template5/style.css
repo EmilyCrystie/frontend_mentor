@@ -3,6 +3,7 @@
 *{
     margin:0;
     font-family: 'Outfit', sans-serif;
+    transition: 0.5;
 }
 
 :root{
@@ -44,10 +45,22 @@ body{
     color: #8BACDA;
 }
 
-.nft img{
-    width: 100%;
+.nft .image{
+    width: 100%; 
     height: auto;
     border-radius: 5px;
+}
+
+.overlap{
+    position: absolute;
+    top: -1;
+    opacity: 1;
+    width: 18%;
+    background-color: #00FFF6;
+}
+
+.overlap:hover{
+    opacity: 1;
 }
 
 .nft h1{
@@ -55,6 +68,10 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 14pt;
+}
+
+.nft h1:hover{
+    color: #00FFF6;
 }
 
 .nft p{
@@ -65,22 +82,27 @@ body{
 }
 
 .negociation-nft{
-    margin-top: var(--gap);
+    margin-top: calc(var(--gap) * 2);
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
 .negociation-nft p{
-    margin-top: var(--gap);
     font-size: 10pt;
     font-weight: 600;
 }
 
-
 .negociation-nft .span p{
     color: #00FFF6;
     font-weight: 600;
+}
+
+.negociation-nft .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
 }
 
 hr{
@@ -111,4 +133,8 @@ hr{
 
 .user span{
     color: #FFFFFF;
+}
+
+.user span:hover{
+    color:#00FFF6;
 }
